@@ -31,7 +31,8 @@
 
     echo "<br>";
     echo "<h1>Ejemplo 4</h1>";
-    // La función json_decode() devuelve un objeto de forma predeterminada. La función json_decode() tiene un segundo parámetro y, cuando se establece en verdadero, los objetos JSON se decodifican en matrices asociativas.
+    // La función json_decode() devuelve un objeto de forma predeterminada. La función json_decode() tiene un segundo parámetro y,
+    // cuando se establece en verdadero, los objetos JSON se decodifican en matrices asociativas.
     // Este ejemplo decodifica datos JSON en una matriz asociativa de PHP:
         $jsonobj = '{"Peter":35,"Ben":37,"Joe":43}';
         var_dump(json_decode($jsonobj, true));

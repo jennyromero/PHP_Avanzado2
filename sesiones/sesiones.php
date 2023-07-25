@@ -10,7 +10,8 @@
    <h1>Sesiones</h1>
    <?php 
    //Cuando trabaja con una aplicación, la abre, hace algunos cambios y luego la cierra. Esto es muy parecido a una sesión. 
-   //Las variables de sesión resuelven este problema al almacenar información del usuario para usarla en varias páginas (por ejemplo, nombre de usuario, color favorito, etc.). De forma predeterminada, las variables de sesión duran hasta que el usuario cierra el navegador.
+   //Las variables de sesión resuelven este problema al almacenar información del usuario para usarla en varias páginas (por ejemplo, nombre de usuario, color favorito, etc.). 
+   // De forma predeterminada, las variables de sesión duran hasta que el usuario cierra el navegador.
    echo "<h1>Ejemplo 1</h1><br>";
    // Iniciar una sesión de PHP
    // Se inicia una sesión con la session_start()función.

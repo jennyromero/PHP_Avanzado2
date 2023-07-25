@@ -12,7 +12,8 @@
     echo "<br>";
     echo "<h1>Ejemplo 1</h1>";
     // Una excepción es un objeto que describe un error o un comportamiento inesperado de un script PHP.
-    // La throwinstrucción permite que una función o método definido por el usuario genere una excepción. Cuando se lanza una excepción, el código que le sigue no se ejecutará.
+    // La throw instrucción permite que una función o método definido por el usuario genere una excepción. 
+    // Cuando se lanza una excepción, el código que le sigue no se ejecutará.
     // Si no se detecta una excepción, se producirá un error fatal con un mensaje de "Excepción no detectada".
     function divide($dividend, $divisor) {
         if($divisor == 0) {
